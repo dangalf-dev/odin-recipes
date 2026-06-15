@@ -1,0 +1,26 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(248, 224, 211);
+}
+
+.header {
+  font-family: "Courier New", monospace;
+  margin: 0.6em auto;
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  background-color: rgb(200, 167, 149);
+  width: 8em;
+  padding: 0.2em;
+  border-radius: 10px;
+}
+.red-letter {
+  color: red;
+}
